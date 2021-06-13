@@ -1,0 +1,27 @@
+.btn-primary-hover:hover {
+    background-color: #ff785e;
+    color: white;
+    border-color: #ff785e;
+  }
+  .btn-outline-secondary-hover:hover {
+    background-color: #ffdf65;
+    border-color: #ffdf65;
+    color: #636057;
+    & > svg {
+      color: #ff785e;
+    }
+  }
+
+.signInBtn-size,
+.signUpBtn-size {
+  width: 96px;
+}
+
+.showBtn-settings{
+    display: none;
+    bottom: 0px;
+    position: fixed;
+  }
+  .showBtn-bottom{
+    bottom: 72px;
+  }

@@ -1,0 +1,58 @@
+.warmGray {
+  color: #636057;
+}
+.darkGray {
+  color: #373a3c;
+}
+.lightGray{
+    color: #494846;
+}
+.bg-lightGray{
+  background-color: #494846;
+}
+.bg-lightWhite{
+  background-color: #F8F9FA;
+}
+
+.badge-bg-color{
+  background-color: #E8E8DB;
+}
+
+.nav-link-focus:focus {
+  font-weight: bold;
+  border-bottom: 2px solid #ffdf65;
+}
+
+
+
+$utilities: map-merge(
+  $utilities, 
+  (
+    
+    "BalooTamma2": (
+      property: font-family,
+      class: font,
+      values: (
+        bt2: "Baloo Tamma 2"
+      ),
+    ),
+    'letter-spacing': (
+      property: letter-spacing,
+      class: letter-spacing,
+      values: (
+        0: 0,
+        1: 0.125rem,
+        2: 0.25rem,
+        3: 0.5rem,
+      ),
+    ),
+    'fontSize':(
+      property: font-size,
+      class: font-size,
+      values:(
+        1: $font-size-base * 0.875,
+        2: $font-size-base * 1.125,
+      ),
+    ),
+  )
+);

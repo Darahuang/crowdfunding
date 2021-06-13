@@ -1,0 +1,44 @@
+
+//常見問答
+.accordion-header{
+    .accordion-button-notCollaped {
+      background-color: white;
+      color: #494846;
+    }
+    .accordion-button-focus:focus{
+        box-shadow:0 0 0 0.25rem  rgba(241, 199, 11, 0.25)
+    }
+  }
+
+  .questions-list{
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    background-color: #ffdf65;
+    border-radius: .25rem;
+    text-align: center;
+    line-height: 2em;
+}
+
+// 方案
+@media(min-width:992px){
+  .overflow-settings{
+    height: 100vh;
+    overflow-y: scroll;
+  }
+  .sponsorBtn-size {
+    width: 176px;
+    height: 52px;
+  }
+}
+.sticky-settings{
+  position: sticky;
+  top: 90px;
+}
+@media(max-width:768px)  {
+  .storeImg-sm-size{
+    width: 70px;
+    height: 70px;
+  }
+  
+}
